@@ -56,7 +56,7 @@ const Dashboard = ({ user, onLogout }: { user: User, onLogout: () => void }) => 
       <header className="mb-8 flex justify-between items-center gap-4">
         <div>
             <h1 className="text-4xl font-extrabold text-slate-900 dark:text-white tracking-tight mb-1">
-            Skill<span className="text-primary">Forge</span> AI
+            Skill<span className="text-primary">Boost</span> AI
             </h1>
             <p className="text-slate-500 dark:text-slate-400 text-sm">Gamified Intelligent Learning Platform</p>
         </div>
@@ -230,7 +230,7 @@ const RoadmapView = ({ user }: { user: User }) => {
   }
 
   const handleShare = () => {
-      navigator.clipboard.writeText(`https://skillforge.ai/share/${roadmap.id}`);
+      navigator.clipboard.writeText(`https://skillboost.ai/share/${roadmap.id}`);
       showToast("Link copied to clipboard! (Simulated)");
   };
 
